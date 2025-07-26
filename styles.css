@@ -1,101 +1,93 @@
-html {
+html{
     background-color: rgb(202, 186, 186);
 }
-
-a {
+a{
     color: black;
 }
-
-#change {
+#change{
     background-color: rgb(216, 216, 164);
 }
-
-#first {
+#first{
     background-color: rgb(211, 193, 193);
     height: 500px;
-    width: 100%;
-    max-width: 2000px;
+    width: 2000px;
     margin: 0;
-    padding: 0;
     font-weight: bold;
     text-align: center;
+    padding: 0;
     position: relative;
-    top: 0;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     animation: slideup 5s forwards;
 }
-
 @keyframes slideup {
-    0% {
-        top: -500px;
+    0%{
+      top: -500px;
     }
-    100% {
-        top: 0;
+    100%{
+     top: 0px;
     }
-}
 
-#photo {
-    height: 300px;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: slideupp 5s forwards;
+    
 }
-
+#photo{
+     height: 300px;
+     width: 2000px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: slideupp 5s forwards;
+}
 @keyframes slideupp {
-    0% {
+    0%{
         top: -500px;
     }
-    100% {
-        top: 0;
+    100%{
+        top: 0px;
     }
+    
 }
-
-#name {
-    height: 100px;
-    width: 100%;
-    max-width: 2000px;
-    margin: 0;
-    padding: 0;
-    font-family: 'Times New Roman';
-    position: relative;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    animation: slideuup 5s forwards;
+#name{
+     height: 100px;
+     width: 2000px;
+     margin: 0;
+     padding: 0%;
+     font-family: 'Times New Roman';
+     position: relative;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     animation: slideuup 5s forwards;
 }
-
 @keyframes slideuup {
-    0% {
+    0%{
         top: -500px;
     }
-    100% {
-        top: 0;
+    100%{
+        top: 0px;
     }
+    
 }
-
-#detail {
-    height: 970px;
-    width: 100%;
-    max-width: 1350px;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    opacity: 0;
-    animation: fadeup 3s forwards;
+#detail{
+     height: 970px;
+     width: 1350px;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     bottom: 0;
+     left: 50%;
+     opacity: 0;
+     transform: translateX(-50%);
+     animation: fadeup 20s forwards;
 }
-
 @keyframes fadeup {
-    to {
+    to{
         opacity: 1;
     }
+    
 }
+
